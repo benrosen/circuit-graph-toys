@@ -1,0 +1,35 @@
+#,Component,Purpose,Mojo,ID
+8,25uF capacitor 50V,preamp stage 1 cathode bypass,Y,C1
+10,20nF capacitor 400V,coupling capacitor after preamp stage 1,22 nF,C2
+13,500pF capacitor,tone,Y,C3
+14,5nF capacitor,tone,No,C4
+18,20nF capacitor 400V,coupling capacitor after preamp stage 2,22 nF,C5
+21,25uF capacitor 50V,power tube cathode bypass,Y,C6
+23,32uF capacitor (16 + 16) 450V,1st filter cap,475V,C7
+24,8uF capacitor 450V,2nd filter cap,475V,C8
+25,8uF capacitor 450V,3rd filter cap,475V,C9
+1,"1/4"" switched jack",Input 1,Y,J1
+2,"1/4"" switched jack",Input 2,Y,J2
+34,Speaker output,,,J3
+20,6V6GT,power tube,Y,P1
+3,68K resistor ,input impedance,Y,R1
+22,470R resistor 1W,power tube cathode resistor,500R,R10
+30,22k resistor,Voltage drop before last filter cap,,R11
+4,68K resistor ,input impedance,Y,R2
+5,1M resistor ,input impedance,Y,R3
+7,1.5K resistor ,preamp stage 1 cathode resistor,Y,R4
+9,100K resistor ,preamp stage 1 plate,Y,R5
+15,1.5K resistor ,preamp stage 2 cathode resistor,Y,R6
+16,22K resistor ,feedback,Y,R7
+17,100K resistor ,preamp stage 2 plate,Y,R8
+19,220K resistor ,,Y,R9
+31,5Y3,,,RECTIFIER
+12,A1M potentiometer,tone,Y,TONE
+6,12AX7,preamp tube,Y,V1
+11,A1M potentiometer,volume,Y,VOLUME
+26,AC switch,,,
+27,3/4 amp fuse,,,
+28,Lamp,,,
+29,Choke,,,
+32,OT,,,
+33,PT,,,
